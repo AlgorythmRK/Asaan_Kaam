@@ -10,6 +10,7 @@ export default defineConfig({
   },
   preview: {
     host: true, // Listen on all local IPs
-    port: process.env.PORT || 4173
+    port: process.env.PORT || 4173,
+    allowedHosts: ['asaan-kaam-1.onrender.com', 'asaan-kaam-frontend.onrender.com', 'render.com']
   }
 })
